@@ -1,0 +1,49 @@
+.grid img {
+    border: 2px solid black;
+    border-radius: 50px;
+    grid: 0px;
+}
+.origame {
+
+    border-radius: 20px;
+    background-color: white;
+
+    width:310px;
+    font-family: fantasy;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(27, 145, 248);
+}
+
+.padding {
+    white-space: normal;
+}
+
+.grid {
+    position: relative;
+}
+.grid p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+.grid:hover p {
+    opacity: 1;
+}
+.grid:hover img {
+    opacity: 0.3;  
+}
+
+.origame:hover{
+    transform: scale(1.2);
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
